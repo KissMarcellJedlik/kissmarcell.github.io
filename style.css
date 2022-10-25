@@ -1,5 +1,5 @@
 body {
-    background-image: url("hatter1.png");
+    background-image: url("images/hatter1.png");
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -57,4 +57,11 @@ h2:hover span
 
 a {
   text-decoration: none;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url()
+
+
 }
