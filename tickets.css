@@ -1,0 +1,93 @@
+#nagy{
+    text-align: center;
+    text-decoration: none;
+    color: #FFD700;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    
+    padding: 0;
+    margin-bottom: 40px;
+    
+}
+
+#nagy:hover{
+    color: #808000;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/stadium_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+
+
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid cyan;
+    text-align: center;
+    color: cyan;
+    
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table{
+    
+    margin: auto;
+}
+
+td:hover{
+    color: dodgerblue;
+}
+
+th:hover{
+    color: indigo;
+}
+th{
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+.cn{
+    width: 160px;
+    height: 40px;
+    background: #FFD700;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: 1s ease;
+
+}
+
+.cn:hover{
+    background-color: #808000;
+}
+
+.cn{
+    margin-top: 200px;
+}
