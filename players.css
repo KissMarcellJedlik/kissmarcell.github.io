@@ -1,0 +1,211 @@
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/stadium_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin: auto;
+
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 81px;
+    margin-top: 0px;
+    font-size: 14px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FFD700;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #808000;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+.logo {
+    color: yellow;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+#players{
+    text-decoration: none;                
+    font-family: Arial; 
+    color: #808000;
+    font-weight: bold;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/stadium_1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}   
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent; 
+    border: 1px solid #FFD700;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: none;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #FFD700;
+    border: 2px solid #FFD700;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+img{
+    width: 300px;
+}
+
+h1{
+    margin-left: 50px;
+    text-decoration: none;                
+    font-family: Arial; 
+    color: #FFD700;
+    font-weight: bold;
+}
+
+
+
+span{
+    text-align: center;
+    text-decoration: none;                
+    font-family: Arial; 
+    color: #979797;
+    font-weight: bold;
+}
+
+.jatekos{
+    text-align: center;
+    text-decoration: none;                
+    font-family: Arial; 
+    color: #FFD700;
+    font-weight: bold;
+    margin-left: 100px;
+    
+}
+
+.novesbal{
+    transition: ease-in-out 0.5s;
+    margin-left: 50px;
+    
+}
+.novesbal:hover{
+
+    transition: ease-in-out 0.5s;
+    width: 400px;
+}
+
+.jatekosjobb{
+    padding-left: 220px;
+    text-decoration: none;                
+    font-family: Arial; 
+    color: #FFD700;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.cn{
+    width: 160px;
+    height: 40px;
+    background: #FFD700;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: 1s ease;
+
+}
+
+.cn:hover{
+    background-color: #808000;
+}
+
+
+
+
