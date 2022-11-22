@@ -4,6 +4,7 @@ body{
     background-position: center;
     background-size: cover;
     height: 109vh;
+    background-attachment: fixed;
 }
 
 
@@ -67,14 +68,7 @@ ul li a:hover{
     color: #808000;
     font-weight: bold;
 }
-.main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/stadium_1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 109vh;
-
-}   
+  
 
 .navbar {
     width: 1200px;
@@ -205,6 +199,33 @@ span{
 .cn:hover{
     background-color: #808000;
 }
+
+.txt{
+    text-decoration: none;                
+    font-family: Arial; 
+    color: #FFD700;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.felso{
+    margin-top: 50px;
+}
+
+.cups{
+    
+    transition: ease-in-out 0.5s;
+    
+}
+
+.cups:hover{
+
+    transition: ease-in-out 0.5s;
+    width: 400px;
+    border: blue 5px solid;
+}
+
+
 
 
 
