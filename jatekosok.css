@@ -1,0 +1,27 @@
+.jobb{
+    float: right;
+    margin-right: 550px;
+    margin-top: 50px;
+}
+
+.bal{
+    float: left;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+img{
+    max-width: 600px;
+}
+
+
+body{
+    background-color: grey;
+}
+
+.bekezdes{
+    text-align: center;
+    font-family: Arial;
+    color: yellow;
+    font-size: 30px;
+}
